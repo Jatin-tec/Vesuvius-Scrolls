@@ -8,7 +8,7 @@ The ink used in the Herculaneum scrolls does not show up readily in X-ray scans,
 
 ## Solution Approach
 
-For this challenge, I plan to use Attention U-Net 3D and ConvNext Networks to detect the presence of ink in the X-ray scans. 
+For this challenge, I plan to use Attention U-Net to detect the presence of ink in the X-ray scans. 
 
 ## Dataset
 
@@ -29,10 +29,4 @@ The dataset can be downloaded from the [Kaggle competition page](https://www.kag
 
 ## Usage
 
-To train the model, simply run the `train.py` script. To test the model on the test set, run the `test.py` script. The trained model will be saved in the `models` directory.
-
-## Credits
-
-- The dataset for this competition was provided by the [University of Oxford](https://www.ox.ac.uk/)
-- [Attention U-Net 3D](https://github.com/fepegar/attention-unet-3d) by Federico Pérez García
-- [ConvNext Networks](https://arxiv.org/pdf/2105.08050.pdf) by Anton Osokin, Philipp Krähenbühl, and Cordelia Schmid
+To train the model, simply run the `train.py` script. To test the model on the test set, run the `eval.py` script. The trained model will be saved in the `models` directory.
